@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 class AssminController extends Controller{
 
     public function index(){
-        return view('backend.index');
+        return view('backend.pages.index');
     }
 
     public function login(){
